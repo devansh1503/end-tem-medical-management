@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('./bgimage.jpg');
+  background-size: cover;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: rgb(74, 74, 74);
+  padding: 4px;
+}
+.navbar ul{
+  display: flex;
+  list-style-type: none;
+}
+.navbar ul *{
+  margin-left: 10px;
+}
+.startpage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.start{
+  background-color: rgba(255, 255, 255, 0.768);
+  margin-top: 5%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  box-shadow: 10px 10px 18px 5px #111111;
+}
+.start *{
+  margin: 20px;
+}
+.linkText{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.linkText:hover{
+  color: crimson;
+}
+.nouser{
+  margin-top: 30px;
+  color: red;
+  font-size: 20px;
+}
+button{
+  padding: 10px;
+  border: none;
+  background-color: rgb(74, 74, 74);
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+input{
+  background: none;
+  font-size: 20px;
+  color: black;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 30vw;
+}
+.reg{
+  background-color: rgba(255, 255, 255, 0.768);
+  margin-top: 5%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  box-shadow: 10px 10px 18px 5px #111111;
+}
+.reg *{
+  margin: 14px;
+}
+.home{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top{
+  display: flex;
+  align-items: center;
+  width: 60vw;
+}
+.image img{
+  margin-left: 10%;
+  width: 50%;
+  border-radius: 50%;
+}
+.det{
+  display: flex;
+}
+.det h5{
+  font-size: 25px;
+  margin-left: 15px;
+  margin-top: 5px;
+  color: white;
+}
+.bottom{
+  display: flex;
+}
+.bottom *{
+  margin: 10px;
+}
+.users{
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+.users th{
+  font-size: 20px;
+  padding: 10px;
+}
+.users td{
+  font-size: 20px;
+  padding: 10px 15px;
+}
+.users tr{
+  margin: 10px;
+}
+.prescriptions{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pres{
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.359);
+  color: white;
+  border-radius: 15px;
+}
+.pres *{
+  font-size: 20px;
+  padding: 10px;
+}

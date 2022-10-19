@@ -1,0 +1,183 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "password": "bandd007@",
+      "userName": "Devansh",
+      "userRole": "Patient",
+      "userAddress": "14 Bharat Nagar, Ferozepur Cant",
+      "userContact": "8558906689",
+      "userGender": "Male",
+      "userAge": "20",
+      "approvalStatus": false
+    },
+    {
+      "id": 2,
+      "userName": "Dipanshu",
+      "userRole": "patient",
+      "userAddress": "14 Bharat Nagar, Ferozepur City",
+      "userContact": "8558906689",
+      "userGender": "Male",
+      "userAge": "20",
+      "approvalStatus": false
+    },
+    {
+      "id": 3,
+      "password": "gurveen06",
+      "userName": "Gurveen",
+      "userRole": "patient",
+      "userAddress": "NIMS Jaipur",
+      "userContact": "8558906689",
+      "userGender": "Female",
+      "userAge": "20",
+      "approvalStatus": false
+    },
+    {
+      "id": 4,
+      "userName": "Rajat",
+      "password": "rajat06",
+      "userRole": "Doctor",
+      "userAddress": "Tamil Nadu",
+      "userContact": "8558906689",
+      "userGender": "Male",
+      "userAge": "20",
+      "approvalStatus": true
+    },
+    {
+      "id": "5",
+      "userName": "Bhargav Sharma",
+      "userRole": "Doctor",
+      "userAddress": "Himachal",
+      "userContact": "1234567898",
+      "userGender": "Male",
+      "userAge": "23",
+      "approvalStatus": false
+    },
+    {
+      "id": "7",
+      "password": "chetan06",
+      "userName": "Chetan Sharma",
+      "userRole": "Admin",
+      "userAddress": "Himachal",
+      "userContact": "9876543212",
+      "userGender": "Male",
+      "userAge": "24",
+      "approvalStatus": true
+    },
+    {
+      "id": "8",
+      "password": "rohit06",
+      "userName": "Rohit Mishra",
+      "userRole": "Admin",
+      "userAddress": "Punjab",
+      "userContact": "6667778889",
+      "userGender": "Male",
+      "userAge": "56",
+      "approvalStatus": true
+    },
+    {
+      "id": "9",
+      "password": "rakhi06",
+      "userName": "Rakhi Gupta",
+      "userRole": "Admin",
+      "userAddress": "Madhya Pradesh",
+      "userContact": "6677889922",
+      "userGender": "Female",
+      "userAge": "34",
+      "approvalStatus": true
+    },
+    {
+      "id": "10",
+      "userName": "Naureen Garg",
+      "userRole": "Admin",
+      "userAddress": "Sirsa",
+      "userContact": "1234567898",
+      "userGender": "Female",
+      "userAge": "15",
+      "approvalStatus": true
+    },
+    {
+      "id": "11",
+      "userName": "Chhavi",
+      "userRole": "patient",
+      "userAddress": "Chandigarh",
+      "userContact": "77788877789",
+      "userGender": "female",
+      "userAge": "20",
+      "approvalStatus": true
+    }
+  ],
+  "prescription": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "prescriptionData": "13-10-2022",
+      "mediceneName": "Rilpivirine (Edurant®)",
+      "mediceneDosage": 7,
+      "days": 4,
+      "remarks": "Please Take the dosage of medicene on time"
+    },
+    {
+      "id": 2,
+      "patientId": 1,
+      "prescriptionData": "13-10-2022",
+      "mediceneName": "Warfarin",
+      "mediceneDosage": 7,
+      "days": 4,
+      "remarks": "Please keep in mind to have a strict diet"
+    },
+    {
+      "id": 3,
+      "patientId": 2,
+      "prescriptionData": "13-10-2022",
+      "mediceneName": "Meperidine",
+      "mediceneDosage": 7,
+      "days": 4,
+      "remarks": "Please take proper sleep"
+    },
+    {
+      "id": 4,
+      "patientId": 3,
+      "prescriptionData": "13-10-2022",
+      "mediceneName": "Morphine",
+      "mediceneDosage": 7,
+      "days": 4,
+      "remarks": "Try Drinking much water"
+    },
+    {
+      "id": 5,
+      "patientId": "2",
+      "prescriptionData": "15-10-2022",
+      "mediceneName": "Efavirenz",
+      "mediceneDosage": "4",
+      "days": "4",
+      "remarks": "Do not miss the doses"
+    }
+  ],
+  "appointment": [
+    {
+      "id": 1,
+      "patientId": "1",
+      "appointmentData": "23-10-2022",
+      "healthProblem": "Feeling pain in left ankle",
+      "appointmentStatus": true,
+      "doctorId": "4"
+    },
+    {
+      "id": 2,
+      "patientId": "1",
+      "appointmentData": "15-10-2022",
+      "healthProblem": "Nose bleeding",
+      "appointmentStatus": false,
+      "doctorId": "4"
+    },
+    {
+      "id": 3,
+      "patientId": "2",
+      "appointmentData": "16-12-2022",
+      "healthProblem": "Chickenpox",
+      "appointmentStatus": false,
+      "doctorId": "6"
+    }
+  ]
+}
